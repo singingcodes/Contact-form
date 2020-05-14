@@ -4,88 +4,105 @@ body{
     padding: 0 auto;
 }
 
-.container{
-    position: relative;
-    /* width: 100;
-    text-align: center; */
-}
-
 .form-container{
     position: absolute;
-    /* top: 50%;                          */
-   /* transform: translate(-50%, -50%); */
     width: 700px;
-    height: 370px;
-    /* text-align: center; */
-    /* left: 32.43%;  */
-     /* bottom: 93.24%; */
+    height: 500px;
     margin-top: 30px;
  
 }
-p{
+h3{
 
 font-family: 'Niramit';
 font-style: normal;
-font-weight: 300;
+font-weight: 500;
 font-size: 18px;
 line-height: 23px;
-
+padding-left: 80px;
 color: #13A89E;
 }
 
 #inputName{
   
     background: #FFFFFF;
-border: 0.5px solid #13A89E;
-box-sizing: border-box;
-border-radius: 15px 15px 0px 0px;
-font-family: 'Niramit';
-font-style: normal;
-font-weight: 300;
-font-size: 18px;
-line-height: 23px;
+    border: 0.5px solid #13A89E;
+    box-sizing: border-box;
+    border-radius: 15px 15px 0px 0px;
+    font-family: 'Niramit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 23px;
+    color: #6D6E71;
+}
+#inputEmail{
 
-color: #6D6E71;
+    background: #FFFFFF;
+    border: 0.5px solid #13A89E;
+    box-sizing: border-box;
+    border-radius: 0px;
+    font-family: 'Niramit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 23px;
+    color: #6D6E71;
+}
+#SelectDate{
+    background: #FFFFFF;
+    border: 0.5px solid #13A89E;
+    box-sizing: border-box;
+    border-radius: 0px;
+    font-family: 'Niramit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 23px;
+    color: #6D6E71;
 }
 
 #inputNumber{
 
-background: #FFFFFF;
-border: 0.5px solid #13A89E;
-box-sizing: border-box;
-border-radius: 0px;
-font-family: 'Niramit';
-font-style: normal;
-font-weight: 300;
-font-size: 18px;
-line-height: 23px;
-
-color: #6D6E71;
+    background: #FFFFFF;
+    border: 0.5px solid #13A89E;
+    box-sizing: border-box;
+    border-radius: 0px;
+    font-family: 'Niramit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 23px;
+    color: #6D6E71;
+}
+.labels{
+   color: rgb(18, 18, 19);
+   font-family: 'Niramit';
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 18px; 
 }
 
 #message-area{
     background: #FFFFFF;
-border: 0.5px solid #13A89E;
-box-sizing: border-box;
-border-radius: 0px;
-font-family: 'Niramit';
-font-style: normal;
-font-weight: 300;
-font-size: 18px;
-line-height: 23px;
-
-color: #6D6E71;
+    border: 0.5px solid #13A89E;
+    box-sizing: border-box;
+    border-radius: 0px;
+    font-family: 'Niramit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 23px;
+    color: #6D6E71;
 }
 
 #submit-btn{
     background: #13A89E;
     border-radius: 0px 0px 15px 15px;
     font-family: 'Noto Sans';
-   font-style: normal;
-   font-weight: bold;
-font-size: 14px;
-line-height: 19px;
-text-align: center;
-
-color: #FFFFFF;
-}
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    }
